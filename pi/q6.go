@@ -12,8 +12,7 @@ func main() {
 func StrLen(s string) int {
 	l := 0
 	for i := 0; i < len(s); i++ {
-		l +=1
-	
+		l = l + 1
 	}
 	return l
 }
