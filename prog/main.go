@@ -18,8 +18,15 @@ func main() {
 
 	if oper == "+" {
 		result = num1 + num2
+	} else if oper == "-" {
+		result = num1 - num2
+	} else if oper == "*" {
+		result = num1 * num2
+	} else if oper == "/" {
+		result = num1 / num2
 	}
-	else oper == "-"(
-		result = num1 - num2num1
-	)
+
+	fmt.Print(result)
 }
+
+// через switch сделать потом
